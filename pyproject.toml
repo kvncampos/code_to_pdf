@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "code-to-pdf"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Campos <89799176+kvncampos@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pdfkit = "^1.0.0"
+wkhtmltopdf = "^0.2"
+pytest = "^8.2.2"
+pytest-mock = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
